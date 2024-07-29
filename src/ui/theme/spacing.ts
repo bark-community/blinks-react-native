@@ -1,17 +1,24 @@
 export const spacing = {
-  [-4]: -16,
-  [-3]: -12,
-  [-2]: -8,
-  [-1]: -4,
+  // Negative Spacing
+  '-4': -16,
+  '-3': -12,
+  '-2': -8,
+  '-1': -4,
+
+  // Zero and Small Spacing
   0: 0,
   0.25: 1,
   0.5: 2,
+
+  // Small to Medium Spacing
   1: 4,
   1.5: 6,
   2: 8,
   2.5: 10,
   3: 12,
   3.5: 14,
+
+  // Medium Spacing
   4: 16,
   5: 20,
   6: 24,
@@ -20,6 +27,8 @@ export const spacing = {
   9: 36,
   10: 40,
   10.5: 42,
+
+  // Large Spacing
   12: 48,
   14: 56,
   16: 64,

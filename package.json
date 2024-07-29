@@ -1,5 +1,5 @@
 {
-  "name": "@dialectlabs/blinks-react-native",
+  "name": "@barkprotocol/blinks-react-native",
   "version": "0.0.0",
   "description": "react native support for solana actions",
   "source": "./src/index.tsx",
@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace @dialectlabs/blinks-react-native-example",
+    "example": "yarn workspace @barkprotocol/blinks-react-native-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -61,18 +61,18 @@
   "devDependencies": {
     "@react-native/eslint-config": "^0.74.85",
     "@types/jest": "^29.5.5",
-    "@types/react": "^18.2.44",
+    "@types/react": "^18.3.3",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.1.0",
     "jest": "^29.7.0",
     "prettier": "^3.3.3",
     "prettier-plugin-organize-imports": "^4.0.0",
-    "react": "18.2.0",
+    "react": "18.3.1",
     "react-native": "0.74.3",
-    "react-native-builder-bob": "^0.26.0",
-    "release-it": "^15.0.0",
-    "typescript": "^5.5.3"
+    "react-native-builder-bob": "^0.28.1",
+    "release-it": "^17.6.0",
+    "typescript": "^5.5.4"
   },
   "resolutions": {
     "@types/react": "^18.2.44"
@@ -147,9 +147,9 @@
     "version": "0.38.2"
   },
   "dependencies": {
-    "@dialectlabs/blinks": "0.6.0-beta.0",
+    "@barkprotocol/blinks": "0.6.0-beta.0",
     "@shopify/restyle": "^2.4.4",
-    "@solana/web3.js": "^1.95.1",
+    "@solana/web3.js": "^1.95.2",
     "react-native-svg": "^15.4.0"
   }
 }

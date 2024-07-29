@@ -25,7 +25,7 @@ export const DisclaimerBlock = ({
             textDecorationLine="underline"
             variant="subtext"
             color="textError"
-            onPress={() => Linking.openURL('https://discord.gg/saydialect')}
+            onPress={() => Linking.openURL('https://discord.gg/')}
           >
             submit an issue
           </Text>
@@ -55,7 +55,7 @@ export const DisclaimerBlock = ({
           {!ignorable &&
             ' Your action provider blocks execution of this action.'}
         </Text>
-        <Link mt={3} url="https://discord.gg/saydialect">
+        <Link mt={3} url="https://discord.gg/">
           <Text fontWeight={600} variant="subtext" color="textWarning">
             Report
           </Text>

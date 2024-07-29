@@ -39,7 +39,7 @@ export const Header = ({
       <Link
         flexDirection="row"
         alignItems="center"
-        url="https://docs.dialect.to/documentation/actions/security"
+        url="https://docs.barkprotocol.blinks/documentation/actions/security"
       >
         {type === 'malicious' && (
           <Badge

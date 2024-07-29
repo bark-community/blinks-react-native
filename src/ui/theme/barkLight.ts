@@ -1,4 +1,4 @@
-export const dialLight = {
+export const barkLight = {
   '--blink-bg-primary': '#ffffff',
   '--blink-button': '#2a2a2b',
   '--blink-button-disabled': '#737373',
@@ -40,9 +40,9 @@ export const dialLight = {
   '--blink-transparent-grey': '#b3b3b31a',
   '--blink-transparent-warning': '#ffbc6e1a',
 
-  '--blink-border-radius-rounded-lg': 4,
-  '--blink-border-radius-rounded-xl': 8,
-  '--blink-border-radius-rounded-2xl': 16,
-  '--blink-border-radius-rounded-button': 8,
-  '--blink-border-radius-rounded-input': 8,
+  '--blink-border-radius-rounded-lg': '4px',
+  '--blink-border-radius-rounded-xl': '8px',
+  '--blink-border-radius-rounded-2xl': '16px',
+  '--blink-border-radius-rounded-button': '8px',
+  '--blink-border-radius-rounded-input': '8px',
 };

@@ -1,4 +1,4 @@
-import { Blink as BlinkReact } from '@dialectlabs/blinks';
+import { Blink as BlinkReact } from '@barkprotocol/blinks';
 import { ThemeProvider } from '@shopify/restyle';
 import { type ComponentProps } from 'react';
 import ActionLayout from './ui/ActionLayout';

@@ -1,5 +1,5 @@
 import { createTheme, useTheme as useRestyleTheme } from '@shopify/restyle';
-import { dialLight } from './theme/dialLight';
+import { barkLight } from './theme/barkLight';
 import { spacing } from './theme/spacing';
 import { textVariants } from './theme/textVariants';
 import type {
@@ -11,7 +11,7 @@ import type {
 } from './theme/types';
 import { toThemeVars } from './theme/util';
 
-const defaultVars = dialLight;
+const defaultVars = barkLight;
 
 export const getTheme = (vars?: Partial<ThemeVars>) => {
   const themeVars = toThemeVars({ ...defaultVars, ...vars });

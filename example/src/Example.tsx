@@ -1,5 +1,5 @@
-import { useAction, type ActionAdapter } from '@dialectlabs/blinks';
-import { Blink } from '@dialectlabs/blinks-react-native';
+import { useAction, type ActionAdapter } from '@barkprotocol/blinks';
+import { Blink } from '@barkprotocol/blinks-react-native';
 import { PublicKey } from '@solana/web3.js';
 import type React from 'react';
 import { ActivityIndicator } from 'react-native';
