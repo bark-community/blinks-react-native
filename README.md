@@ -121,27 +121,6 @@ Wallets using Blinks clients reference the registry to display Blinks based on t
 
 Phantom, Backpack, and other wallets may choose not to display Blinks with status `none` or `blocked` to prioritize user safety.
 
-### Register Your Action
-
-To ensure your action is trusted and secure, follow these steps:
-
-1. **Functionality ✔️**: Verify your action works correctly using [dial.to](https://dial.to).
-2. **Clear Description 📝**: Provide a detailed description to facilitate the review process.
-3. **Thorough Testing 🧪**: Test in various environments for consistency.
-4. **Build Secure Actions 🔒**: Follow security best practices to protect users.
-5. **Valid Contact 📞**: Ensure accurate contact information for follow-ups.
-6. **Patience 🙏**: Registration reviews are currently manual; automation is being developed.
-
-Submit your action for registration here: [https://dial.to/register](https://dial.to/register).
-
-### Registry Schedule
-
-Submissions are reviewed during business hours, Monday through Friday.
-
-### Work with Us
-
-Dialect aims to create a decentralized, community-driven trust system. Interested in collaborating? Join us on our [community Discord](https://discord.gg/yourcommunitylink).
-
 ## BARK Use Cases
 
 ### Donation
@@ -193,6 +172,8 @@ For issues or questions, please open an issue on the [GitHub repository](https:/
 - [Dialect Labs' Blinks React Native](https://github.com/dialectlabs/blinks-react-native) for the original library.
 - [Solana](https://solana.com/) for the blockchain platform.
 
----
+### Work with Us
+
+BARK Protocol aims to create a decentralized, community-driven trust system. Interested in collaborating? Join us on our [community](https://t.me/bark_protocol).
 
 Feel free to adjust or expand based on the specific features and requirements of BARK projects.
